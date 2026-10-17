@@ -6,8 +6,34 @@
 
 * Things to revisit
 ** General
+- [ ] overall book organization into parts, then chapters
+- [ ] 010: right-aligned signature
+- [ ] 024: hand-written correction from a past reader; research the name change
+- [ ] 062: poetry
 ** Text only
+- [ ] 019: undecorated list of items; hanging indents. Newline separation? F rounds marked as blockquote.
+- [ ] 257-281: index
 ** HTML only
+- [ ] 009: no-indent para
+- [ ] 013: no-indent para
+- [ ] 019: undecorated list of items; hanging indents
+- [ ] 021: no-indent para
+- [ ] 035: no-indent para
+- [ ] 065: no-indent para
+- [ ] 079: no-indent para
+- [ ] 102: no-indent para
+- [ ] 111: no-indent para
+- [ ] 118: no-indent para
+- [ ] 126: no-indent para
+- [ ] 136 breaks the no-indent para pattern, probably due to the format change
+- [ ] 157: no-indent para
+- [ ] 168: no-indent para
+- [ ] 184: no-indent para in blockquote; 2nd para is indented.
+- [ ] 208: no-indent para
+- [ ] 233: no-indent para
+- [ ] 247: no-indent para
+- [ ] 257-281: index
+- [ ] 282: no-indent para
 * Transcriber Notes
 * Notes
 ** General notes
@@ -86,9 +112,9 @@ cd ~/dp/util
 - [X] Set document language (probably ~en~)
 - [X] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 *** Sequential Inspection of Text
-- [ ] Turn on ~Auto Img~
-- [ ] Check for chapter/section spacing (2,4). Regex: ~(^$\n^$\n^$\n^$\n|^$\n^$\n)~ and use "Highlight All".
-- [ ] If languages other than main language are noticed, add them to Lang setting (e.g. ~en+fr~)
+- [X] Turn on ~Auto Img~
+- [X] Check for chapter/section spacing (2,4). Regex: ~(^$\n^$\n^$\n^$\n|^$\n^$\n)~ and use "Highlight All".
+- [X] If languages other than main language are noticed, add them to Lang setting (e.g. ~en+fr~)
 Check for:
 - Proper spacing for chapters and paragraphs
   - Before chapter start: 4 blank lines
