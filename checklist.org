@@ -80,11 +80,11 @@ cd ~/dp/util
 . venv/bin/activate
 ./make_project.py
 #+END_SRC
-- [ ] Read the [[https://www.pgdp.net/c/project.php?id=projectID5eec5e8f6a034#project-comments][project comments]]
-- [ ] Subscribe to the [[https://www.pgdp.net/phpBB3/viewtopic.php?t=70509][forum topic]] and read all posts
-- [ ] Open ~fright-utf8.txt~ in Guiguts
-- [ ] Set document language (probably ~en~)
-- [ ] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
+- [X] Read the [[https://www.pgdp.net/c/project.php?id=projectID5eec5e8f6a034#project-comments][project comments]]
+- [X] Subscribe to the [[https://www.pgdp.net/phpBB3/viewtopic.php?t=70509][forum topic]] and read all posts
+- [X] Open ~fright-utf8.txt~ in Guiguts
+- [X] Set document language (probably ~en~)
+- [X] ~File → Project → Configure Page Labels...~. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 *** Sequential Inspection of Text
 - [ ] Turn on ~Auto Img~
 - [ ] Check for chapter/section spacing (2,4). Regex: ~(^$\n^$\n^$\n^$\n|^$\n^$\n)~ and use "Highlight All".
