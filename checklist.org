@@ -62,6 +62,12 @@
 - [ ] 247: no-indent para
 - [ ] 282: no-indent para
 * Transcriber Notes
+- p. 65: changed “committe” to “committee” (None of the congressmen on the committee)
+- p. 137: changed “compuses” to “campuses” (pro-Communist lecturers on college campuses)
+- p. 151: changed “Washingington” to “Washington” (the Washington newsletter Human Events)
+- p. 198: changed “Heistand” to “Hiestand” (Rousselot and Hiestand disclosed their membership)
+- p. 244: changed “chackdown” to “crackdown” (slackened markedly after the crackdown)
+- p. 254: changed “Read” to “Rear” (Mott, Rear Admiral William C.)
 * Notes
 ** General notes
 ** Proofer notes
@@ -180,7 +186,7 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
   - Regex: ~^(/#|#/)~
   - Check consistent indentation of block text
   - Apply specific [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins][margin values]] if desired
-- [ ] Find and fix any single-asterisk Proofer Comments: Search regex ~\[\*[^*]~
+- [X] Find and fix any single-asterisk Proofer Comments: Search regex ~\[\*[^*]~
 - [ ] ~Search → Find Proofer Comments~. Resolve all proofer's notes.
 - [ ] ~Tools → Unmatched → Block Markup~
 - [ ] ~Tools → Unmatched → DP Markup~

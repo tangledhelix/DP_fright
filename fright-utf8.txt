@@ -189,7 +189,7 @@ Right Face!
 */
 
 
-[**F1: noIndent]The winter night on Chicago's North Side is peaceful. The
+The winter night on Chicago's North Side is peaceful. The
 lazily swirling snow forms a halo around the globes of the
 glowing street lamps.
 
@@ -317,7 +317,7 @@ Laos. John F. Kennedy's election buttressed their worst fears.
 
 Many of the frustrated and anxious became converts to
 Birchism, with its simple solutions to complex problems.
-Pamphleteers turned to with renewed will[** typo??]. The plotting hand
+Pamphleteers turned to with renewed will. The plotting hand
 of communism received credit for every disappointing turn
 on the local, national, and world scene, shaking the confidence
 of the credulous.
@@ -540,7 +540,7 @@ Perspective
 */
 
 
-[**F1: noIndent]"You are to do what you are told and if you are asked about
+"You are to do what you are told and if you are asked about
 us you are to say 'I know nothing.'"
 
 This is not the pledge demanded of a John Birch recruit
@@ -962,7 +962,7 @@ The John Birch Society
 */
 
 
-[**F1: noIndent]February 3, 1962. At the tables beneath the red, white, and
+February 3, 1962. At the tables beneath the red, white, and
 blue chandeliers of the Crystal Ballroom in the Schroeder
 Hotel, 600 Milwaukee diners turned expectantly toward the
 dais as the speaker was introduced. For many it was the first
@@ -1602,7 +1602,7 @@ gathering in a public school in California, for example, a film
 and public discussion were planned. Seventy to eighty John
 Birch Society members attended and broke into cheers or
 boos on signal. Whenever a speaker mentioned democracy
-they shouted <i>republic</i>![**exclamation point inside italics?] The state's attorney general, Stanley
+they shouted <i>republic!</i> The state's attorney general, Stanley
 Mosk, said they interrupted and insulted the audience and
 speakers. At a meeting of a club in Encino, California, he
 reported, seventy-two Birchers became so abusive in their
@@ -2220,7 +2220,7 @@ then leaned forward again over the lectern: "I always say,
 'Begin with my books.'
 
 "Here's a book that you can trust, <i>The Communists</i> [<i>You
-Can Trust The Communists (To Do Exactly As They Say)</i>].[**F2 assuming this is short title - long title re italics]
+Can Trust The Communists (To Do Exactly As They Say)</i>].
 It's had a tremendous reception. Many of the lectures I give
 in the morning you'll find in this. Now it costs you two
 ninety-five in the shops. We give you a special price--three
@@ -2563,7 +2563,7 @@ In 1957, he appeared before the staff of the House Committee
 on Un-American Activities. Under the respectful
 questioning of Richard Arens, staff director, he described
 the nature of communism. None of the congressmen on the
-committe[**typo for committee?] was present. It didn't matter. The appearance gave
+committee was present. It didn't matter. The appearance gave
 him stature; the record of his testimony amounted to the
 closest thing to a testimonial that the committee could give.
 
@@ -4220,7 +4220,7 @@ political office. This ended when the retired general ran last
 in a field of six in the 1962 Texas Democratic gubernatorial
 primary.
 
-Courtney's hit-and miss[**typo for "hit-and-miss"] flailing about on the Far Right has
+Courtney's hit-and-miss flailing about on the Far Right has
 frequently left him spinning awkwardly there, successful in
 the collection of money from undiscriminating fanciers of
 pamphlets, but completely ineffectual in his batterings on
@@ -5177,7 +5177,7 @@ the films on company time, just as they may also take non-*political
 courses in letter writing and driver training at company
 expense. Flick also pays the tuition for employees to
 take courses at Chicago's Institute for Economic Inquiry.
-The Institute is[**no italics, confirmed with page images] supported by companies that send "group
+The Institute is supported by companies that send "group
 leaders" to study prior to conducting seminars in their own
 plants or offices. The director of the school, John Monroe,
 believes there is no need for government aid programs or for
@@ -5386,7 +5386,7 @@ with Communist countries, widespread distribution of
 pornographic material at the high school and college
 level, increase in morally-offensive movies and paper-*back
 books, promotion of pro-Communist lecturers on
-college compuses[**campuses] ... and the mobilization of college
+college campuses ... and the mobilization of college
 students into Red fronts and student "peace" organizations....
 #/
 -----File: 148.png---------------------------------------------------------
@@ -5812,7 +5812,7 @@ dozen others.
 
 Weekly and monthly magazines and bulletins are the Far
 Right's most important media of indoctrination. A leading
-disseminator of the Far Right's point of view is the Washingington[** Washington]
+disseminator of the Far Right's point of view is the Washington
 newsletter <i>Human Events</i>. Its 1962 circulation was
 107,000. The eighteen-year-old weekly had only 13,000 subscribers
 in 1960, and before that had struggled along on the
@@ -7667,7 +7667,7 @@ Their triumphs did not match their defeats or greatly ease
 their frustrations but did encourage them to keep up a tenacious
 rat-a-tat-tat among themselves, in public meetings, in
 letters to officeholders, and even in the halls of Congress.
-Representatives Rousselot and Heistand [**typo for "Hiestand"] disclosed their membership
+Representatives Rousselot and Hiestand disclosed their membership
 in the John Birch Society and worked with some of
 their colleagues in the big conservative bloc of the Eighty-seventh
 Congress to influence legislation. Their gains were
@@ -8596,7 +8596,7 @@ Rickenbacker as chairman, was formed to protest the pledge
 as a "guarantee" that Cuba would be permitted to remain a
 Communist nation. But the general public, relieved that
 Kennedy had been able to force a Russian backdown without
-war, had little appetite on Election Day for brinksmanship[**typo for brinkmanship].
+war, had little appetite on Election Day for brinksmanship.
 Some of the conservative stalwarts who had been critical
 of the President's measured course, including Senator
 Homer E. Capehart of Indiana and Representative Judd of
@@ -9355,7 +9355,7 @@ Company had ever repudiated it or not.
 
 Even the military support the extremists have enjoyed
 has largely evaporated except among some retired officers
-of high rank. It slackened markedly after the chackdown[**typo for "crackdown"]
+of high rank. It slackened markedly after the crackdown
 on Walker. Without prescribing a strait jacket, the Kennedy
 administration has reaffirmed and toughened the nation's
 traditional civilian control of the military. Improved troop
@@ -9727,7 +9727,7 @@ Christian Crusade, 69-91
   sale of merchandise, 79
   sponsors, 59-60, 80, 85
   tax-free status, 85-86, 89
-    (<i>See also</i> Hargis, Billy James)[**remove extra indent? does it refer to main topic or 'tax-free...']
+    (<i>See also</i> Hargis, Billy James)
 
 <i>Christian Crusade, the National Christian Americanism Monthly</i>, 72
 
@@ -10074,7 +10074,7 @@ Harding College, 92-100, 186
 Hargis, Billy James, 69-91, 116, 140, 147, 155, 197, 201, 224, 245
   attempt to bring together Right-wing leaders, 89-90
   background, 70-72, 78
-  <i>Communist America--Must It Be?</i>[**, though many indices don't print a comma after entry ending in "?", I've noticed :-) F2] 75-76, 82
+  <i>Communist America--Must It Be?</i> 75-76, 82
   degrees, 78
 */
 -----File: 267.png---------------------------------------------------------
@@ -10420,7 +10420,7 @@ Morris, Robert, 60, 186
 
 Mosk, Stanley, 41, 68
 
-Mott, Read[**P2 maybe Rear?] Admiral William C., 196
+Mott, Rear Admiral William C., 196
 
 Movies, anti-Communist, 94-95, 132, 159, 169, 185, 188, 190
 
@@ -10700,7 +10700,7 @@ Schwarz, Dr. Frederick Charles, 56-68, 95, 97, 245
   salary, 58
   testimony before House Un-American Committee, 65-66
   troop indoctrination program, 188-189
-  <i>You Can Trust the Communists (To Do Exactly As They Say)[**upright parentheses]</i>, 57, 66, 163
+  <i>You Can Trust the Communists (To Do Exactly As They Say)</i>, 57, 66, 163
 
 Seale, Jack, 205, 207, 213-215
 
@@ -10989,7 +10989,7 @@ Yarborough, Ralph W., 136
 
 Yeagley, J. Walter, 229
 
-<i>You Can Trust the Communists</i> (<i>To Do Exactly As They Say</i>)[**upright parentheses] (Schwarz), 57, 66, 163
+<i>You Can Trust the Communists</i> (<i>To Do Exactly As They Say</i>) (Schwarz), 57, 66, 163
 
 Young, Milton B., 215-217
 
