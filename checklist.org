@@ -7,13 +7,41 @@
 * Things to revisit
 ** General
 - [ ] overall book organization into parts, then chapters
-- [ ] 010: right-aligned signature
 - [ ] 024: hand-written correction from a past reader; research the name change
+** Rewrap markers
+- [ ] 007: right-align heading
+- [ ] 009: right-align heading
+- [ ] 010: right-aligned signature
+- [ ] 011: right-align block to start part 1
+- [ ] 013: right-align heading
+- [ ] 021: right-align heading
+- [ ] 033: right-align block to start part 2
+- [ ] 035: right-align heading
 - [ ] 062: poetry
+- [ ] 065: right-align heading
+- [ ] 079: right-align heading
+- [ ] 102: right-align heading
+- [ ] 111: right-align heading
+- [ ] 118: right-align heading
+- [ ] 126: right-align heading
+- [ ] 136: right-align heading
+- [ ] 136: centered block
+- [ ] 155: right-align block to start part 3
+- [ ] 157: right-align heading
+- [ ] 168: right-align heading
+- [ ] 184: right-align heading
+- [ ] 208: right-align heading
+- [ ] 233: right-align heading
+- [ ] 245: right-align block to start part 4
+- [ ] 247: right-align heading
+- [ ] 255: poetry
+- [ ] 257: right-align heading
+- [ ] 257-281: index
 ** Text only
 - [ ] 019: undecorated list of items; hanging indents. Newline separation? F rounds marked as blockquote.
-- [ ] 257-281: index
+- [ ] 007-008: ToC
 ** HTML only
+- [ ] 007-008: ToC
 - [ ] 009: no-indent para
 - [ ] 013: no-indent para
 - [ ] 019: undecorated list of items; hanging indents
@@ -32,7 +60,6 @@
 - [ ] 208: no-indent para
 - [ ] 233: no-indent para
 - [ ] 247: no-indent para
-- [ ] 257-281: index
 - [ ] 282: no-indent para
 * Transcriber Notes
 * Notes
@@ -139,17 +166,17 @@ Check for:
 - [X] Use ~Tools → Basic Fixup~.
 - [X] Remove any remaining ~[Blank Page]~ lines
 *** Errata
-- [ ] If original book had errata, apply it and note in TN
+- [X] If original book had errata, apply it and note in TN
 *** Fix Block Markups and Proofer Notes
 Instructions for ~/* */~ and ~/# #/~ blocks:
 - Check for a blank line before and after markup
 - If specific [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers][rewrap markers]] should be used, don't change them now, but add a note to your list for later handling, after page separators are removed.
 - For blocks that span a page boundary: if the next-page opening marker is on the second line with one blank before it, but it's still part of the same block from the previous page, move the wrap marker to the first line of the page, next to the page separator. This will make it easier to remove them during the removal of page separators.
-- [ ] Use the ~Search~ menu to step through all ~/* */~ blocks.
+- [X] Use the ~Search~ menu to step through all ~/* */~ blocks.
   - Regex: ~^(/\*|\*/)~
   - Apply specific [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Table_Indent][indent value]] if desired
   - Make sure poetry line numbers are at least two spaces to the right of the line.
-- [ ] Use the ~Search~ menu to step through all ~/#..#/~ blocks.
+- [X] Use the ~Search~ menu to step through all ~/#..#/~ blocks.
   - Regex: ~^(/#|#/)~
   - Check consistent indentation of block text
   - Apply specific [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins][margin values]] if desired
