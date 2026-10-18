@@ -9,38 +9,16 @@
 - [ ] overall book organization into parts, then chapters
 - [ ] 024: hand-written correction from a past reader; research the name change
 ** Rewrap markers
-- [ ] 007: right-align heading
-- [ ] 009: right-align heading
-- [ ] 010: right-aligned signature
-- [ ] 011: right-align block to start part 1
-- [ ] 013: right-align heading
-- [ ] 021: right-align heading
-- [ ] 033: right-align block to start part 2
-- [ ] 035: right-align heading
-- [ ] 062: poetry
-- [ ] 065: right-align heading
-- [ ] 079: right-align heading
-- [ ] 102: right-align heading
-- [ ] 111: right-align heading
-- [ ] 118: right-align heading
-- [ ] 126: right-align heading
-- [ ] 136: right-align heading
-- [ ] 136: centered block
-- [ ] 155: right-align block to start part 3
-- [ ] 157: right-align heading
-- [ ] 168: right-align heading
-- [ ] 184: right-align heading
-- [ ] 208: right-align heading
-- [ ] 233: right-align heading
-- [ ] 245: right-align block to start part 4
-- [ ] 247: right-align heading
-- [ ] 255: poetry
-- [ ] 257: right-align heading
-- [ ] 257-281: index
+- [X] 010: right-aligned signature
+- [X] 062: poetry
+- [X] 136: centered block
+- [X] 255: poetry
+- [X] 257-281: index
 ** Text only
 - [ ] 019: undecorated list of items; hanging indents. Newline separation? F rounds marked as blockquote.
 - [ ] 007-008: ToC
 ** HTML only
+- [ ] see if right-align chapter headings looks terrible
 - [ ] 007-008: ToC
 - [ ] 009: no-indent para
 - [ ] 013: no-indent para
@@ -217,11 +195,11 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
 *** Remove Visible Page Breaks
 - [X] Run ~Tools → Page Separator Fixup~ to remove visible page separators
 *** Format Front Matter
-- [ ] Format the title page, preserving as much of the original material as possible. Protect in ~/X...X/~ (no rewrap, no indent) or ~/F...F/~ (the same, except that it will be centered in the html version).
-- [ ] Edit the TOC. Find each matching chapter head; make sure heads are 1:1 with TOC. Protect TOC with ~/X...X/~. Note that your TOC will probably need to be indented to prevent rewrapping, particularly if you use multiple spaces to align page numbers.
-- [ ] If book has illustrations, edit or create /List of Illustrations/ (*Note:* this is not a requirement). Make sure it is 1:1 with ~[Illustration]~ captions. Protect with ~/X...X/~.
+- [X] Format the title page, preserving as much of the original material as possible. Protect in ~/X...X/~ (no rewrap, no indent) or ~/F...F/~ (the same, except that it will be centered in the html version).
+- [X] Edit the TOC. Find each matching chapter head; make sure heads are 1:1 with TOC. Protect TOC with ~/X...X/~. Note that your TOC will probably need to be indented to prevent rewrapping, particularly if you use multiple spaces to align page numbers.
+- [X] If book has illustrations, edit or create /List of Illustrations/ (*Note:* this is not a requirement). Make sure it is 1:1 with ~[Illustration]~ captions. Protect with ~/X...X/~.
 *** Add Noted Rewrap Markers
-- [ ] If the to-do list has any notes about adding [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers][rewrap markers]] (such as indexes or poetry), make those changes.
+- [X] If the to-do list has any notes about adding [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers][rewrap markers]] (such as indexes or poetry), make those changes.
 *** Apply Word-Frequency Checks
 - [ ] Open ~Tools → Word Frequency~. Click on an entry to jump to it.
 - [ ] Choose ~Freq~ and ~All Words~. List is now sorted by word frequency; scroll to the end and skim up the list of words that only appear 1 time looking for oddities and obvious misspellings.

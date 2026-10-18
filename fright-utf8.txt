@@ -7,7 +7,7 @@ The Far <i>Right</i>
 
 
 
-/*
+/x
 Donald
 Janson
 & Bernard
@@ -20,12 +20,12 @@ Far
 
 McGraw-Hill Book Company, Inc.
 NEW YORK    TORONTO    LONDON
-*/
+x/
 
 
 
 
-/*
+/x
 The Far <i>Right</i>
 
 Copyright © 1963 by Donald Janson and Bernard Eismann.
@@ -39,7 +39,7 @@ Library of Congress Catalog Card Number: 63-11851
 Second Printing
 
 32289
-*/
+x/
 
 
 
@@ -54,7 +54,7 @@ Contents
 */
 
 
-/*
+/x
 Introduction      ix
 
 
@@ -102,7 +102,7 @@ Four: The Future
 16. The Reckoning      237
 
 Index      247
-*/
+x/
 
 
 
@@ -151,9 +151,9 @@ We also thank the historians, sociologists, psychologists,
 educators, politicians, and others who contributed time
 and resources.
 
-/*
+/r
 <i>Donald Janson and Bernard Eismann</i>
-*/
+r/
 
 
 
@@ -2000,12 +2000,12 @@ dipped into a thesaurus of quotations and brought forth Edwin
 Markham's noble strategy as a formula for combating
 his tormentors:
 
-/*
+/p
 He drew a circle that shut me out--
 Heretic, rebel, a thing to flout.
 But Love and I had the wit to win:
 We drew a circle that took him in!
-*/
+p/
 
 Goldwater, Kirk, and Buckley form an articulate triumvirate
 of the Respectable Right whose basic beliefs match
@@ -4786,13 +4786,13 @@ Assorted
 
 The cover of the 36-page booklet reads:
 
-/*
+/c
 FIRST NATIONAL DIRECTORY
 of "Rightist" Groups, Publications and Some
 Individuals in the United States
 Fourth Edition
 Price: $2.00
-*/
+c/
 
 Even this ambitious undertaking (by the Alert Americans
 Association, Post Office Box 1222, Los Angeles 53) falls short
@@ -9111,12 +9111,12 @@ a record at first banned as too controversial by CBS, ABC,
 and all Los Angeles AM stations, neatly summed up the jibes
 in these lyrics:
 
-/*
+/p
 Do you want Justice Warren to be your commissar?
 Do you want Nina Khrushchev in there with the DAR?
 You cannot trust your neighbor or even next of kin.
 If Mommy is a Commie then you gotta turn her in.
-*/
+p/
 
 But the Far Right, though it has been dragged into the
 glare of merciless publicity, is determined to try to carry
@@ -9174,7 +9174,7 @@ Index
 */
 
 
-/*
+/i
 Abraham Lincoln Republican Club, 141
 
 Aims of the Far Right, 8-9
@@ -10664,7 +10664,7 @@ Yugoslavia, sale of planes to, 108-115
 
 
 Zoll, Allen, 86
-*/
+i/
 
 
 
