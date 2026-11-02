@@ -43,11 +43,14 @@
 - [ ] 282: no-indent para
 * Transcriber Notes
 - p. 65: changed “committe” to “committee” (None of the congressmen on the committee)
+- p. 79: changed “facsimilies” to “facsimiles” (facsimiles of coins from the Middle East)
 - p. 137: changed “compuses” to “campuses” (pro-Communist lecturers on college campuses)
 - p. 151: changed “Washingington” to “Washington” (the Washington newsletter Human Events)
 - p. 198: changed “Heistand” to “Hiestand” (Rousselot and Hiestand disclosed their membership)
 - p. 244: changed “chackdown” to “crackdown” (slackened markedly after the crackdown)
+- p. 248: changed “Franke” to “Frank” (Burke, Frank W.)
 - p. 254: changed “Read” to “Rear” (Mott, Rear Admiral William C.)
+- p. 255: changed “Kiernan” to “Kieran” (O’Doherty, Kieran)
 * Notes
 ** General notes
 ** Proofer notes
@@ -231,8 +234,8 @@ Instructions for ~/* */~ and ~/# #/~ blocks:
 *** Apply Bookloupe
 - [X] ~Tools → Bookloupe~.
 *** Spelling and Distance Checks
-- [ ] If any languages known to be in the book aren't in the Lang: setting, add them (e.g. ~en+fr~). Only tag languages we have a dictionary for. (More dictionaries are available; see [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_2_Manual/Tools_Menu#Spelling][the wiki]].)
-- [ ] Use ~Tools → Spelling~. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+- [X] If any languages known to be in the book aren't in the Lang: setting, add them (e.g. ~en+fr~). Only tag languages we have a dictionary for. (More dictionaries are available; see [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_2_Manual/Tools_Menu#Spelling][the wiki]].)
+- [X] Use ~Tools → Spelling~. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
 - [ ] Use ~Tools → Word Distance Check~.
 *** Fix Poetry Line Numbers
 - [ ] If the book has poetry that uses line numbers, read [[https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers][this page]] and align the line numbers consistently.
