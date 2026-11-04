@@ -7,8 +7,8 @@
 * Things to revisit
 ** General
 - [ ] overall book organization into parts, then chapters
-- [ ] 024: hand-written correction from a past reader; research the name change
-- [ ] abbreviations of e.g. ABC, CBS (TV networks)
+- [X] 024: hand-written correction from a past reader; research the name change
+- [X] abbreviations of e.g. ABC, CBS (TV networks)
 ** Rewrap markers
 - [X] 010: right-aligned signature
 - [X] 062: poetry
@@ -16,8 +16,8 @@
 - [X] 255: poetry
 - [X] 257-281: index
 ** Text only
-- [ ] 019: undecorated list of items; hanging indents. Newline separation? F rounds marked as blockquote.
-- [ ] 007-008: ToC
+- [X] 019: undecorated list of items; hanging indents. Newline separation? F rounds marked as blockquote.
+- [X] 007-008: ToC
 ** HTML only
 - [ ] see if right-align chapter headings looks terrible
 - [ ] lot of use of what should be allsmcap; GG should auto-detect; check it worked
@@ -295,13 +295,13 @@ We now proceed to create a Plain Text Version of the book.
 - [X] ~Tools → Clean Up Rewrap Markers~.
 - [X] Rerun Bookloupe or pptext. Resolve any new issues.
 *** Final checks
-- [ ] Search for ~<~ and ~>~ to locate any tag markup not yet removed.
-- [ ] Search ~[^A-Z][A-Z]\.\n[A-Z]\.~ to look for initials across a line-break and rewrap as appropriate. (/optional/)
+- [X] Search for ~<~ and ~>~ to locate any tag markup not yet removed.
+- [X] Search ~[^A-Z][A-Z]\.\n[A-Z]\.~ to look for initials across a line-break and rewrap as appropriate. (/optional/)
 *** Check revisit list
-- [ ] Check "things to revisit" list for anything lingering in the text version
+- [X] Check "things to revisit" list for anything lingering in the text version
 *** Add TN
-- [ ] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter.
-- [ ] Rewrap this section of text when finished.
+- [X] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter.
+- [X] Rewrap this section of text when finished.
 #+BEGIN_SRC text
 Transcriber’s Note
 
