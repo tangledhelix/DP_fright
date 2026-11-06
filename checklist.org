@@ -324,7 +324,7 @@ p. 123: changed “foo” to “fool” (the fool and his money)
 *** Final review
 - [X] Skim over text file to find any obvious issues
 *** Validation
-- [ ] ~Text → PPtxt~
+- [X] ~Text → PPtxt~
 ** Prepare the HTML Version
 Finally, we create an HTML version of the book.
 - [ ] Open ~fright.html~ that was saved previously.
