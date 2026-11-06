@@ -2,6 +2,15 @@
 
 
 
+                           Transcriber’s Note
+
+
+This file uses _underscores_ to indicate italic text. Small capitals
+changed to all capitals.
+
+
+
+
                             The Far _Right_
 
 
@@ -9486,9 +9495,6 @@ with his wife and two children he lives in Chicago.
 
 Some inconsistencies in spelling, hyphenation, and punctuation have
 been retained.
-
-This file uses _underscores_ to indicate italic text. Small capitals
-changed to all capitals.
 
 p. 65: changed “committe” to “committee” (None of the congressmen on
 the committee)
