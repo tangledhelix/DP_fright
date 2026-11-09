@@ -20,6 +20,38 @@ h1,h2,h3,h4,h5,h6 {
     clear: both;
 }
 
+.title-page { /* container for width control */
+  width: 25em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tp-med { font-size: 115%; }
+.tp-authors { font-size: 200%; }
+
+.tp-pad1 { padding-left: 0.8em; }
+
+h1 {
+  font-family: "Franklin Gothic Condensed", "Arial Narrow", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 0.9;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.title-the {
+  display: block;
+  margin-right: 1em;
+}
+
+.title-right {
+  font-style: italic;
+  vertical-align: -0.6em; /* drops "Right" below "Far" */
+  margin-left: -0.3em;    /* closes the gap after "Far" */
+}
+
 p {
     margin-top: .5em;
     text-align: justify;
@@ -374,39 +406,40 @@ p.drop-cap::first-letter {
 </head>
 <body>
 
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
+
+<p class="center tp-med">
+<strong>The Far <i>Right</i></strong>
+<span class="pagenum" id="Page_i" role="doc-pagebreak">i</span>
+</p>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
-<div class="chapter">
+<div class="chapter title-page">
+<span class="pagenum" id="Page_ii" role="doc-pagebreak"></span>
+<span class="pagenum" id="Page_iii" role="doc-pagebreak">iii</span>
+<p class="noindent tp-authors">
+Donald<br>
+Janson<br>
+&amp; Bernard<br>
+Eismann
+</p>
 
-<p><span class="pagenum" id="Page_i" role="doc-pagebreak">i</span></p>
+<h1>
+  <span class="title-the">The</span>
+  Far
+  <span class="title-right">Right</span>
+</h1>
 
-
-  <h2 class="nobreak" id="The_Far_Right">
-    The Far <i>Right</i>
-
-<p><span class="pagenum" id="Page_ii" role="doc-pagebreak"></span><span class="pagenum" id="Page_iii" role="doc-pagebreak">iii</span></p>
-  </h2>
+<p class="noindent p2">
+<span class="tp-med">McGraw-Hill Book Company, Inc.</span><br>
+<span class="tp-med allsmcap">NEW YORK <span class="tp-pad1">TORONTO</span> <span class="tp-pad1">LONDON</span></span>
+</p>
 </div>
 
-
-<pre>
-Donald
-Janson
-&amp; Bernard
-Eismann
-
-The   <!-- Make this the h1 -->
-Far
-<i>Right</i>
-
-
-McGraw-Hill Book Company, Inc.
-NEW YORK    TORONTO    LONDON
-</pre>
-
+<hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <p><span class="pagenum" id="Page_iv" role="doc-pagebreak">iv</span></p>
 
-
+<div class="chapter">
 <pre>
 The Far <i>Right</i>
 
@@ -422,7 +455,7 @@ Second Printing
 
 32289
 </pre>
-
+</div>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
@@ -433,13 +466,13 @@ Second Printing
   <h2 class="nobreak" id="For_Jane_and_Suzanne">
     For Jane and Suzanne
 
-<p><span class="pagenum" id="Page_vi" role="doc-pagebreak"></span><span class="pagenum" id="Page_vii" role="doc-pagebreak">vii</span></p>
   </h2>
 </div>
 
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
+<span class="pagenum" id="Page_vi" role="doc-pagebreak"></span><span class="pagenum" id="Page_vii" role="doc-pagebreak">vii</span>
   <h2 class="nobreak" id="Contents">
     Contents
   </h2>
