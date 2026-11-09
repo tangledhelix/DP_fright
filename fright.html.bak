@@ -439,22 +439,24 @@ Eismann
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <p><span class="pagenum" id="Page_iv" role="doc-pagebreak">iv</span></p>
 
-<div class="chapter">
-<pre>
+<div class="chapter title-page">
+<p class="noindent">
 The Far <i>Right</i>
+</p>
 
-Copyright © 1963 by Donald Janson and Bernard Eismann.
-All Rights Reserved. Printed in the United States
-of America. This book, or parts thereof, may not be
-reproduced in any form without written permission
+<p class="noindent">
+Copyright © 1963 by Donald Janson and Bernard Eismann.<br>
+All Rights Reserved. Printed in the United States<br>
+of America. This book, or parts thereof, may not be<br>
+reproduced in any form without written permission<br>
 of the publishers.
+</p>
 
-Library of Congress Catalog Card Number: 63-11851
+<p class="noindent">Library of Congress Catalog Card Number: 63-11851</p>
 
-Second Printing
+<p class="noindent">Second Printing</p>
 
-32289
-</pre>
+<p class="noindent">32289</p>
 </div>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
@@ -463,10 +465,10 @@ Second Printing
 <p><span class="pagenum" id="Page_v" role="doc-pagebreak">v</span></p>
 
 
-  <h2 class="nobreak" id="For_Jane_and_Suzanne">
+  <p class="tp-med">
     For Jane and Suzanne
 
-  </h2>
+  </p>
 </div>
 
 
