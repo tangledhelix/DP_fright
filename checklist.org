@@ -20,7 +20,7 @@
 - [X] 007-008: ToC
 ** HTML only
 - [ ] chapter starts are all right-aligned. (get it?) including ToC and probably index
-- [ ] drop right pad/margin on blockquote so it is also right-aligned?
+- [ ] drop right pad/margin on blockquote so it is also right-leaning?
 - [ ] lot of use of what should be allsmcap; GG should auto-detect; check it worked
 - [ ] 007-008: ToC
 - [ ] 009: no-indent para
@@ -44,6 +44,7 @@
 - [ ] 282: no-indent para
 * Transcriber Notes
 - (TEXT) smallcaps to all-caps
+- p. 14: In the paper book this transcription originated from, a past reader crossed out “International” in “International Workers of the World” and wrote “Industrial” above it. While this anonymous reader was correct, the text was left as originally printed.
 - p. 65: changed “committe” to “committee” (None of the congressmen on the committee)
 - p. 79: changed “facsimilies” to “facsimiles” (facsimiles of coins from the Middle East)
 - p. 137: changed “compuses” to “campuses” (pro-Communist lecturers on college campuses)
@@ -344,15 +345,15 @@ References: ([[https://www.pgdp.net/phpBB3/viewtopic.php?p=1347865#p1347865][p13
 *** Generate the HTML
 - [X] It is preferable for the source line-breaks to match the book; however HTML poetry markup won't work unless ~/P..P/~ sections have been rewrapped. If the book has much poetry, rewrap it all; else select and rewrap poetry sections individually.
   - Don't remove the rewrap markers. These are needed for generation of proper HTML.
-- [ ] Search for ~^/[*$pcrflxi]~ (regex, no match-case) and make any desired [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers][rewrap marker]] changes before HTML generation
-- [ ] TODO: Figure out how to do ~chap_fn~ for Footnotes, i.e. ~1_1, 1_2, ... 2_1, 2_2, ...~ rather than a single numbered list?
-- [ ] TODO: Footnotes need to move to landing zones before HTML generation?
-- [ ] Open ~HTML → HTML Generator~.
+- [X] Search for ~^/[*$pcrflxi]~ (regex, no match-case) and make any desired [[https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers][rewrap marker]] changes before HTML generation
+- [X] TODO: Figure out how to do ~chap_fn~ for Footnotes, i.e. ~1_1, 1_2, ... 2_1, 2_2, ...~ rather than a single numbered list?
+- [X] TODO: Footnotes need to move to landing zones before HTML generation?
+- [X] Open ~HTML → HTML Generator~.
   - Correct the Title if not auto-detected properly.
   - Set options as desired.
   - Use the ~Auto-generate HTML~ button.
-- [ ] Save the file and open it in a browser.
-- [ ] Scroll through looking for systematic errors. (Title pages, tables, etc. will look terrible; no matter). If automatic conversion messed up, start this step over with a reset file.
+- [X] Save the file and open it in a browser.
+- [X] Scroll through looking for systematic errors. (Title pages, tables, etc. will look terrible; no matter). If automatic conversion messed up, start this step over with a reset file.
 - [ ] Page through the book looking for text that was not handled well by automatic HTML generation, in particular:
   - [[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Title_Pages][Title pages]].
   - [[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/DP_HTML_Best_Practices/Case_Studies/Tables][Tables and Tables of Contents]]. The ~Auto Table~ button can help format tables.

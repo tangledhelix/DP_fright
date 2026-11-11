@@ -41,6 +41,13 @@ h1 {
   text-align: right;
 }
 
+h2 {
+  text-align: right;
+  font-size: 250%;
+  font-family: "Franklin Gothic Condensed", "Arial Narrow", sans-serif;
+}
+.h2-left { text-align: left; }
+
 .title-the {
   display: block;
   margin-right: 1em;
@@ -174,7 +181,7 @@ td, th { padding: 0.25em; }
 .pagenum { /* uncomment the next line for invisible page numbers */
     /*  visibility: hidden;  */
     position: absolute;
-    left: 92%;
+    left: 1.5%;
     font-size: small;
     text-align: right;
     font-style: normal;
@@ -193,10 +200,10 @@ td, th { padding: 0.25em; }
 } /* poetry number */
 
 blockquote {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5%;
-    margin-right: 10%;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    margin-left: 7%;
+    margin-right: 0;
 }
 
 .sidenote {
@@ -314,7 +321,7 @@ img.w100 {width: 100%;}
 
 /* Poetry */
 /* uncomment the next line for centered poetry */
-/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {display: flex; justify-content: center;}
 .poetry-container {text-align: center;}
 .poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
 .poetry .stanza   {margin: 1em auto;}
@@ -334,7 +341,7 @@ img.w100 {width: 100%;}
 section.chapter { page-break-before: always; }
 
 /* indent paragraphs, reset justification */
-p { text-indent: 1em; text-align: left; }
+p { text-indent: 1em; /*text-align: left;*/ }
 p.noindent { text-indent: 0; }
 
 /* de-emphasize page numbers */
@@ -374,6 +381,9 @@ abbr.spell { speak: spell-out; }
 
 /* remove italic styling, e.g. on a <cite> */
 .nonitalic { font-style: normal; }
+
+.ul1 { list-style-type: none; margin: 1em 0; padding: 0; }
+.ul1 li { padding-left: 1em; text-indent: -1em; }
 
 /* hanging indent */
 .hanging2 {
@@ -473,14 +483,13 @@ of the publishers.
 
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
-<section class="chapter">
+<section class="chapter autoflex-width">
 <span class="pagenum" id="Page_vi" role="doc-pagebreak"></span><span class="pagenum" id="Page_vii" role="doc-pagebreak">vii</span>
   <h2 class="nobreak" id="Contents">
     Contents
   </h2>
 
 <nav data-epub-type="toc">
-<div class="autoflex-width">
 <ul class="autoflex-list">
   <li class="autoflex-entry">
     <span class="toc-num"></span>
@@ -550,7 +559,7 @@ of the publishers.
   </li>
   <li class="autoflex-entry p2">
     <span class="toc-num"></span>
-    <span class="toc-title" href="#three"><b>Three: The Fray</b></span>
+    <span class="toc-title"><b>Three: The Fray</b></span>
     <span class="toc-page"></span>
   </li>
   <li class="autoflex-entry">
@@ -580,7 +589,7 @@ of the publishers.
   </li>
   <li class="autoflex-entry p2">
     <span class="toc-num"></span>
-    <span class="toc-title" href="#four"><b>Four: The Future</b></span>
+    <span class="toc-title"><b>Four: The Future</b></span>
     <span class="toc-page"></span>
   </li>
   <li class="autoflex-entry">
@@ -594,8 +603,8 @@ of the publishers.
     <span class="toc-page">247</span>
   </li>
 </ul>
-</section>
 </nav>
+</section>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
@@ -609,7 +618,7 @@ of the publishers.
 </div>
 
 
-<p>Global tensions, racial strife and other circumstances that
+<p class="noindent">Global tensions, racial strife and other circumstances that
 have prompted the growth and activity of ultraconservative
 organizations today may ease tomorrow, dropping the Far
 Right at least temporarily out of the limelight. Yet the current
@@ -657,22 +666,18 @@ and resources.</p>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
-
 <p><span class="pagenum" id="Page_1" role="doc-pagebreak">1</span></p>
-
 
   <h2 class="nobreak" id="one">
     one:
     <br>
     The Movement
-
-<p><span class="pagenum" id="Page_2" role="doc-pagebreak"></span><span class="pagenum" id="Page_3" role="doc-pagebreak">3</span></p>
   </h2>
 </div>
 
-
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
+<p><span class="pagenum" id="Page_2" role="doc-pagebreak"></span><span class="pagenum" id="Page_3" role="doc-pagebreak">3</span></p>
   <h2 class="nobreak" id="1">
     1:
     <br>
@@ -681,7 +686,7 @@ and resources.</p>
 </div>
 
 
-<p>The winter night on Chicago’s North Side is peaceful. The
+<p class="noindent">The winter night on Chicago’s North Side is peaceful. The
 lazily swirling snow forms a halo around the globes of the
 glowing street lamps.</p>
 
@@ -923,85 +928,83 @@ but limited list of subjects that hold particular interest for
 the archpatriots and how they feel about them, described in
 their own words, would look like this:</p>
 
-<blockquote>
-<p><i>Collective bargaining</i>—special privilege; abolish.</p>
+<ul class="ul1">
+<li><i>Collective bargaining</i>—special privilege; abolish.</li>
 
-<p><i>Union shop</i>—travesty.</p>
+<li><i>Union shop</i>—travesty.</li>
 
-<p><i>Civil liberties</i>—cloak for subversion.</p>
+<li><i>Civil liberties</i>—cloak for subversion.</li>
 
-<p><i>Social security</i>—Communistic.</p>
+<li><i>Social security</i>—Communistic.</li>
 
-<p><i>Integration</i>—device to mongrelize the nation.</p>
+<li><i>Integration</i>—device to mongrelize the nation.</li>
 
-<p><i>Freedom Riders</i>—young punks.</p>
+<li><i>Freedom Riders</i>—young punks.</li>
 
-<p><i>Intellectuals</i>—zombies posturing in a vacuum of their own
-creation.</p>
+<li><i>Intellectuals</i>—zombies posturing in a vacuum of their own
+creation.</li>
 
-<p><i>Buying government bonds</i>—unpatriotic.</p>
+<li><i>Buying government bonds</i>—unpatriotic.</li>
 
-<p><i>Expanding role of federal government</i>—parasitic.</p>
+<li><i>Expanding role of federal government</i>—parasitic.</li>
 
-<p><i>Supreme Court</i>—nest of Communists; impeach
-the Chief Justice.</p>
+<li><i>Supreme Court</i>—nest of Communists; impeach
+the Chief Justice.</li>
 
-<p><i>State Department</i>—heavily infiltrated; dupes.</p>
+<li><i>State Department</i>—heavily infiltrated; dupes.</li>
 
-<p><i>Central Intelligence Agency</i>—ditto.</p>
+<li><i>Central Intelligence Agency</i>—ditto.</li>
 
-<p><i>Other federal government departments</i>—ditto.</p>
+<li><i>Other federal government departments</i>—ditto.</li>
 
-<p><i>Federal aid to education</i>—subversive.</p>
+<li><i>Federal aid to education</i>—subversive.</li>
 
-<p><i>Federal income tax</i>—immoral; conspiracy to destroy free
-enterprise; abolish.</p>
+<li><i>Federal income tax</i>—immoral; conspiracy to destroy free
+enterprise; abolish.</li>
 
-<p><span class="pagenum" id="Page_10" role="doc-pagebreak">10</span></p>
+<li><span class="pagenum" id="Page_10" role="doc-pagebreak">10</span><i>Picasso</i>—ban Communist art.</li>
 
-<p><i>Picasso</i>—ban Communist art.</p>
+<li><i>Bolshoi Ballet in U.S.</i>—cold-war tactical <i>coup</i> for the Reds.</li>
 
-<p><i>Bolshoi Ballet in U.S.</i>—cold-war tactical <i>coup</i> for the Reds.</p>
+<li><i>City-manager form of government</i>—Communist device.</li>
 
-<p><i>City-manager form of government</i>—Communist device.</p>
+<li><i>National Council of Churches</i>—Communist-infiltrated.</li>
 
-<p><i>National Council of Churches</i>—Communist-infiltrated.</p>
+<li><i>Harvard</i>—ditto.</li>
 
-<p><i>Harvard</i>—ditto.</p>
+<li><i>Several other universities</i>—corrupt, employ mental prostitutes.</li>
 
-<p><i>Several other universities</i>—corrupt, employ mental prostitutes.</p>
+<li><i>Textbooks not screened by the Right</i>—likely to have immoral,
+liberal, or Communist slant.</li>
 
-<p><i>Textbooks not screened by the Right</i>—likely to have immoral,
-liberal, or Communist slant.</p>
+<li><i>Fluoridation of water</i>—Communist plot to weaken nation’s
+health.</li>
 
-<p><i>Fluoridation of water</i>—Communist plot to weaken nation’s
-health.</p>
+<li><i>Philanthropic foundations</i>—suspect.</li>
 
-<p><i>Philanthropic foundations</i>—suspect.</p>
+<li><i>Urban renewal</i>—Communist device to wipe out property
+rights.</li>
 
-<p><i>Urban renewal</i>—Communist device to wipe out property
-rights.</p>
+<li><i>Revised version of the Bible</i>—Communist perversion of the
+Gospel.</li>
 
-<p><i>Revised version of the Bible</i>—Communist perversion of the
-Gospel.</p>
+<li><i>Federal Reserve System</i>—a mistake; abolish.</li>
 
-<p><i>Federal Reserve System</i>—a mistake; abolish.</p>
+<li><i>Democracy</i>—deceptive; a fraud.</li>
 
-<p><i>Democracy</i>—deceptive; a fraud.</p>
+<li><i>House Committee on Un-American Activities</i>—solid Americans;
+allocate more funds.</li>
 
-<p><i>House Committee on Un-American Activities</i>—solid Americans;
-allocate more funds.</p>
+<li><i>The press</i>—badly duped; boycott.</li>
 
-<p><i>The press</i>—badly duped; boycott.</p>
+<li><i>Berlin wall</i>—tear down.</li>
 
-<p><i>Berlin wall</i>—tear down.</p>
+<li><i>Cuba</i>—invade.</li>
 
-<p><i>Cuba</i>—invade.</p>
+<li><i>Russia and her ilk</i>—terminate recognition.</li>
 
-<p><i>Russia and her ilk</i>—terminate recognition.</p>
-
-<p><i>North Atlantic Treaty Organization</i>—desert.</p>
-</blockquote>
+<li><i>North Atlantic Treaty Organization</i>—desert.</li>
+</ul>
 
 <p>Signs borne outside the Hollywood Paladium as President
 Kennedy delivered a warning against “these counsels of fear
@@ -1031,7 +1034,7 @@ history.</p>
 </div>
 
 
-<p>“You are to do what you are told and if you are asked about
+<p class="noindent">“You are to do what you are told and if you are asked about
 us you are to say ‘I know nothing.’”</p>
 
 <p>This is not the pledge demanded of a John Birch recruit
@@ -1428,19 +1431,17 @@ it was time to ask “Is your neighbor a Red?”</p>
 
 <p><span class="pagenum" id="Page_22" role="doc-pagebreak"></span><span class="pagenum" id="Page_23" role="doc-pagebreak">23</span></p>
 
-
   <h2 class="nobreak" id="two">
     two:
     <br>
     The Organizations
-
-<p><span class="pagenum" id="Page_24" role="doc-pagebreak"></span><span class="pagenum" id="Page_25" role="doc-pagebreak">25</span></p>
   </h2>
 </div>
 
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
+<p><span class="pagenum" id="Page_24" role="doc-pagebreak"></span><span class="pagenum" id="Page_25" role="doc-pagebreak">25</span></p>
   <h2 class="nobreak" id="3">
     3:
     <br>
@@ -1449,7 +1450,7 @@ it was time to ask “Is your neighbor a Red?”</p>
 </div>
 
 
-<p>February 3, 1962. At the tables beneath the red, white, and
+<p class="noindent">February 3, 1962. At the tables beneath the red, white, and
 blue chandeliers of the Crystal Ballroom in the Schroeder
 Hotel, 600 Milwaukee diners turned expectantly toward the
 dais as the speaker was introduced. For many it was the first
@@ -2597,17 +2598,15 @@ and accepted the advice.</p>
 
 <p><span class="pagenum" id="Page_55" role="doc-pagebreak">55</span></p>
 
-
   <h2 class="nobreak" id="4">
     4:
     <br>
-    ’Enry ’Iggins
+    ’Enry ’Iggins<br>
     of the Right
   </h2>
 </div>
 
-
-<p>The bright-eyed, bouncy man on the platform seemed to
+<p class="noindent">The bright-eyed, bouncy man on the platform seemed to
 vibrate with energy. The cadence of his speech was almost
 hypnotic. His punchy, shrill oratory first had listeners rising
 from their seats, then he relaxed them, had them turning to
@@ -3168,13 +3167,13 @@ work.</p>
   <h2 class="nobreak" id="5">
     5:
     <br>
-    Billy James Hargis and
+    Billy James Hargis and<br>
     the Christian Crusade
   </h2>
 </div>
 
 
-<p>What is beneficial to one “anticommunism crusade” will not
+<p class="noindent">What is beneficial to one “anticommunism crusade” will not
 long be ignored by another. Simultaneously with the Oakland
 spectacle put on by Fred Schwarz, the Reverend Billy
 James Hargis conducted his own Christian Crusade’s “first
@@ -4079,7 +4078,7 @@ of my heart.”</p>
 </div>
 
 
-<p>In central Arkansas, not far from the foothills of the Ozarks,
+<p class="noindent">In central Arkansas, not far from the foothills of the Ozarks,
 lies the peaceful little town of Searcy (pronounced <i>Sur’cy</i>
 by its 7200 residents). With its town square, lackluster
 shops, and leisurely pace, it seems indistinguishable from
@@ -4435,7 +4434,7 @@ Education Program of tiny, sunny Searcy, Arkansas.</p>
 </div>
 
 
-<p>Post office boxes 4223 and 4254, New Orleans 18, Louisiana,
+<p class="noindent">Post office boxes 4223 and 4254, New Orleans 18, Louisiana,
 are the addresses for one of the most energetic operations
 of the Far Right. They are the mail drops for Kent and
 Phoebe Courtney, who operate out of shabby quarters in
@@ -4699,13 +4698,13 @@ the door of American politics.</p>
   <h2 class="nobreak" id="8">
     8:
     <br>
-    The National Indignation
+    The National Indignation<br>
     Convention
   </h2>
 </div>
 
 
-<p>“Indignation, Texas Style.” This was the way the first meeting
+<p class="noindent">“Indignation, Texas Style.” This was the way the first meeting
 in Dallas of the new fire-eating group was billed in the fall of
 1961, and it lived up to its advances. One man’s indignation
 spread to a second, then to thousands of others, and hardened
@@ -5014,7 +5013,7 @@ successful conclusion of the Yugoslav affair.</p>
 </div>
 
 
-<p>The new arrival—a slender, dark, handsome, well-dressed
+<p class="noindent">The new arrival—a slender, dark, handsome, well-dressed
 man—was surrounded by reporters who had seen his name
 tag. His appearance at the Mayo Hotel in Tulsa for a five-day
 anti-Communist meeting was unheralded. As national leader
@@ -6098,19 +6097,17 @@ years.</p>
 
 <p><span class="pagenum" id="Page_144" role="doc-pagebreak"></span><span class="pagenum" id="Page_145" role="doc-pagebreak">145</span></p>
 
-
   <h2 class="nobreak" id="three">
     three:
     <br>
     The Fray
-
-<p><span class="pagenum" id="Page_146" role="doc-pagebreak"></span><span class="pagenum" id="Page_147" role="doc-pagebreak">147</span></p>
   </h2>
 </div>
 
-
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
+<p><span class="pagenum" id="Page_146" role="doc-pagebreak"></span><span class="pagenum" id="Page_147" role="doc-pagebreak">147</span></p>
+
   <h2 class="nobreak" id="11">
     11:
     <br>
@@ -6119,7 +6116,7 @@ years.</p>
 </div>
 
 
-<p>Show your colors, urged the banner in the window of the
+<p class="noindent"><span class="allsmcap">Show your colors</span>, urged the banner in the window of the
 new <i>American Opinion</i> Library of Fort Wayne, Indiana. The
 “flag holidays” were listed and a prominently displayed American
 flag caught the eyes of shoppers on the busy downtown
@@ -6486,7 +6483,7 @@ gutless traitors.... Many of these people, deliberately
 or not, are delivering us to the enemy.</p>
 </blockquote>
 
-<p>Anderson’s columns often are reprinted by the Courtneys.</p>
+<p class="noindent">Anderson’s columns often are reprinted by the Courtneys.</p>
 
 <p>Fulton Lewis, Jr., in print and on the air, is sometimes wary
 of the Far Right. Nevertheless, almost every list of recommended
@@ -6566,7 +6563,7 @@ Right are as prolific as those of the Far Left have been.</p>
 </div>
 
 
-<p>“What does it say? What does it say?”</p>
+<p class="noindent">“What does it say? What does it say?”</p>
 
 <p>The fifth-grade boys and girls of Lakewood Elementary
 School in Twin Lakes, Wisconsin, were impatiently curious
@@ -7191,7 +7188,7 @@ victory.”</p>
 
 
 <blockquote>
-<p>One of the easiest ways of determining your Senator’s or
+<p class="noindent">One of the easiest ways of determining your Senator’s or
 Congressman’s record is by consulting the ACA Index.
 This carefully researched index to voting records has
 been prepared by the nonpartisan Americans for Constitutional
@@ -8101,7 +8098,7 @@ abetted by international Communism, its agents and its sympathizers.”</p>
 </div>
 
 
-<p>For the ultraconservatives, the first three years of the 1960s
+<p class="noindent">For the ultraconservatives, the first three years of the 1960s
 brought some measure of success on the political front.
 Their triumphs did not match their defeats or greatly ease
 their frustrations but did encourage them to keep up a tenacious
@@ -9058,7 +9055,7 @@ worked so diligently to generate.</p>
 </div>
 
 
-<p>The professionals of the Far Right have thrived on the public
+<p class="noindent">The professionals of the Far Right have thrived on the public
 debate that has swirled about them. They have been able
 to convince their followers that attacks on them, their philosophy,
 and their methods are the result of “plots” against them,
@@ -9114,7 +9111,7 @@ moderate voices to rejoin the debate. An editorial in the <i>Observer</i>,
 <i>The Wall Street Journal’s</i> Sunday paper, stated:</p>
 
 <blockquote>
-<p>People who profess to believe, among many other
+<p class="noindent">People who profess to believe, among many other
 things, that President Eisenhower was some kind of a
 dupe of the Communists scarcely commend themselves
 to reasonable men or rational discussion ... the extreme
@@ -9470,19 +9467,18 @@ are wrong.</p>
 
 <p><span class="pagenum" id="Page_234" role="doc-pagebreak"></span><span class="pagenum" id="Page_235" role="doc-pagebreak">235</span></p>
 
-
   <h2 class="nobreak" id="four">
     four:
     <br>
     The Future
-
-<p><span class="pagenum" id="Page_236" role="doc-pagebreak"></span><span class="pagenum" id="Page_237" role="doc-pagebreak">237</span></p>
   </h2>
 </div>
 
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
+<p><span class="pagenum" id="Page_236" role="doc-pagebreak"></span><span class="pagenum" id="Page_237" role="doc-pagebreak">237</span></p>
+
   <h2 class="nobreak" id="16">
     16:
     <br>
@@ -9491,7 +9487,7 @@ are wrong.</p>
 </div>
 
 
-<p>Far Right activity has been intense and widespread since
+<p class="noindent">Far Right activity has been intense and widespread since
 1958. What accounts for its penetration into American homes
 and communities? Basically its appeal is to the frustrated, the
 ill-informed, the thoughtless, the insecure, the suspicious, or
@@ -9992,7 +9988,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Birch, John Morrison, <a href="#Page_28">28–29</a></li>
 
-  <li class="indx"><span class="pagenum" id="Page_248" role="doc-pagebreak">248</span>Birch Society (<i>see</i> John Birch Society)</li>
+  <li class="indx"><span class="pagenum" id="Page_248" role="doc-pagebreak">248</span>Birch Society (<i>see</i> <a href="#idx_John_Birch_Society">John Birch Society</a>)</li>
 
   <li class="indx">Black, Hugo, <a href="#Page_44">44</a></li>
 
@@ -10140,7 +10136,7 @@ any effective headway in the United States.</p>
   <li class="isub1">sale of merchandise, <a href="#Page_79">79</a></li>
   <li class="isub1">sponsors, <a href="#Page_59">59–60</a>, <a href="#Page_80">80</a>, <a href="#Page_85">85</a></li>
   <li class="isub1">tax-free status, <a href="#Page_85">85–86</a>, <a href="#Page_89">89</a></li>
-  <li class="isub2">(<i>See also</i> Hargis, Billy James)</li>
+  <li class="isub2">(<i>See also</i> <a href="#idx_Hargis_Billy_James">Hargis, Billy James</a>)</li>
 
   <li class="indx"><i>Christian Crusade, the National Christian Americanism Monthly</i>, <a href="#Page_72">72</a></li>
 
@@ -10475,7 +10471,7 @@ any effective headway in the United States.</p>
   <li class="indx">Harding College, <a href="#Page_92">92–100</a>, <a href="#Page_186">186</a></li>
   <li class="isub1">endowment, <a href="#Page_93">93</a></li>
 
-  <li class="indx">Hargis, Billy James, <a href="#Page_69">69–91</a>, <a href="#Page_116">116</a>, <a href="#Page_140">140</a>, <a href="#Page_147">147</a>, <a href="#Page_155">155</a>,
+  <li class="indx" id="idx_Hargis_Billy_James">Hargis, Billy James, <a href="#Page_69">69–91</a>, <a href="#Page_116">116</a>, <a href="#Page_140">140</a>, <a href="#Page_147">147</a>, <a href="#Page_155">155</a>,
     <a href="#Page_197">197</a>, <a href="#Page_201">201</a>, <a href="#Page_224">224</a>, <a href="#Page_245">245</a></li>
   <li class="isub1">attempt to bring together Right-wing leaders, <a href="#Page_89">89–90</a></li>
   <li class="isub1">background, <a href="#Page_70">70–72</a>, <a href="#Page_78">78</a></li>
@@ -10530,7 +10526,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Hoover, J. Edgar, <a href="#Page_8">8</a>, <a href="#Page_90">90</a>, <a href="#Page_229">229–231</a></li>
 
-  <li class="indx">House Committee on Un-American Activities, <a href="#Page_19">19–20</a>, <a href="#Page_56">56</a>, <a href="#Page_65">65</a>, <a href="#Page_76">76</a>, <a href="#Page_150">150</a>,
+  <li class="indx" id="idx_House_Committee_on_Un_American_Activities">House Committee on Un-American Activities, <a href="#Page_19">19–20</a>, <a href="#Page_56">56</a>, <a href="#Page_65">65</a>, <a href="#Page_76">76</a>, <a href="#Page_150">150</a>,
     <a href="#Page_164">164</a>, <a href="#Page_206">206</a>, <a href="#Page_211">211</a></li>
   <li class="isub1">“Operation Abolition,” film, <a href="#Page_169">169</a>, <a href="#Page_185">185</a>, <a href="#Page_188">188</a>, <a href="#Page_190">190</a></li>
 
@@ -10577,7 +10573,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Jews and anti-Semitism, <a href="#Page_16">16–17</a></li>
 
-  <li class="indx">John Birch Society, <a href="#Page_25">25–54</a></li>
+  <li class="indx" id="idx_John_Birch_Society">John Birch Society, <a href="#Page_25">25–54</a></li>
   <li class="isub1">activities, <a href="#Page_39">39–42</a></li>
   <li class="isub1">aims and methods, <a href="#Page_38">38–42</a>, <a href="#Page_205">205</a></li>
   <li class="isub1">Black Book, <a href="#Page_34">34</a>, <a href="#Page_50">50–51</a></li>
@@ -10591,7 +10587,7 @@ any effective headway in the United States.</p>
   <li class="isub1">discipline and tactics, <a href="#Page_45">45–46</a></li>
   <li class="isub1">dues, <a href="#Page_45">45–46</a></li>
   <li class="isub1">founded by Robert Welch, <a href="#Page_25">25</a></li>
-  <li class="isub2">(<i>See also</i> Welch, Robert)</li>
+  <li class="isub2">(<i>See also</i> <a href="#idx_Welch_Robert">Welch, Robert</a>)</li>
   <li class="isub1">fronts, <a href="#Page_43">43–44</a></li>
   <li class="isub1">headquarters, <a href="#Page_29">29–30</a></li>
   <li class="isub1">intramural controversy, <a href="#Page_50">50–54</a></li>
@@ -11239,7 +11235,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Ultraconservatism, <a href="#Page_6">6</a>, <a href="#Page_92">92</a></li>
 
-  <li class="indx">Un-American Activities Committee <i>see</i> House Committee on Un-American Activities</li>
+  <li class="indx">Un-American Activities Committee <i>see</i> <a href="#idx_House_Committee_on_Un_American_Activities">House Committee on Un-American Activities</a></li>
 
   <li class="indx">UNESCO, <a href="#Page_163">163</a></li>
 
@@ -11308,7 +11304,7 @@ any effective headway in the United States.</p>
 
   <li class="indx"><i>Weekly Crusader</i>, <a href="#Page_72">72</a>, <a href="#Page_74">74</a>, <a href="#Page_89">89</a></li>
 
-  <li class="indx">Welch, Robert, <a href="#Page_4">4</a>, <a href="#Page_80">80</a>, <a href="#Page_105">105–106</a>, <a href="#Page_125">125</a>, <a href="#Page_143">143</a>,
+  <li class="indx" id="idx_Welch_Robert">Welch, Robert, <a href="#Page_4">4</a>, <a href="#Page_80">80</a>, <a href="#Page_105">105–106</a>, <a href="#Page_125">125</a>, <a href="#Page_143">143</a>,
     <a href="#Page_175">175</a>, <a href="#Page_242">242–243</a>, <a href="#Page_245">245</a></li>
   <li class="isub1">activities, <a href="#Page_29">29–33</a></li>
   <li class="isub1">authoritarian leadership, <a href="#Page_48">48</a></li>
@@ -11395,13 +11391,13 @@ any effective headway in the United States.</p>
 <p><span class="pagenum" id="Page_260" role="doc-pagebreak">260</span></p>
 
 
-  <h2 class="nobreak" id="About_the_Authors">
+  <h2 class="nobreak h2-left" id="About_the_Authors">
     About the Authors
   </h2>
 </div>
 
 
-<p>Donald Janson and Bernard Eismann are newspaper and
+<p class="noindent">Donald Janson and Bernard Eismann are newspaper and
 broadcast journalists respectively whose careers have been
 devoted to reporting and interpreting all that is significant in
 the news. Born in Barry County, Michigan, in 1921, Don
