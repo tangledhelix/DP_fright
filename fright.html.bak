@@ -41,10 +41,11 @@ h1 {
   text-align: right;
 }
 
-h2 {
+h2, .book-part {
   text-align: right;
   font-size: 250%;
   font-family: "Franklin Gothic Condensed", "Arial Narrow", sans-serif;
+  font-weight: bold;
 }
 .h2-left { text-align: left; }
 
@@ -607,7 +608,7 @@ of the publishers.
 </section>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
-<div class="chapter">
+<section class="chapter">
 
 <p><span class="pagenum" id="Page_ix" role="doc-pagebreak">ix</span></p>
 
@@ -615,8 +616,6 @@ of the publishers.
   <h2 class="nobreak" id="Introduction">
     Introduction
   </h2>
-</div>
-
 
 <p class="noindent">Global tensions, racial strife and other circumstances that
 have prompted the growth and activity of ultraconservative
@@ -662,17 +661,17 @@ and resources.</p>
 <p class="right">
   <i>Donald Janson and Bernard Eismann</i>
 </p>
-
+</section>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
 <div class="chapter">
 <p><span class="pagenum" id="Page_1" role="doc-pagebreak">1</span></p>
 
-  <h2 class="nobreak" id="one">
+  <p id="one" class="book-part">
     one:
     <br>
     The Movement
-  </h2>
+  </p>
 </div>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
@@ -1431,11 +1430,11 @@ it was time to ask “Is your neighbor a Red?”</p>
 
 <p><span class="pagenum" id="Page_22" role="doc-pagebreak"></span><span class="pagenum" id="Page_23" role="doc-pagebreak">23</span></p>
 
-  <h2 class="nobreak" id="two">
+  <p class="book-part" id="two">
     two:
     <br>
     The Organizations
-  </h2>
+  </p>
 </div>
 
 
@@ -6097,11 +6096,11 @@ years.</p>
 
 <p><span class="pagenum" id="Page_144" role="doc-pagebreak"></span><span class="pagenum" id="Page_145" role="doc-pagebreak">145</span></p>
 
-  <h2 class="nobreak" id="three">
+  <p class="book-part" id="three">
     three:
     <br>
     The Fray
-  </h2>
+  </p>
 </div>
 
 <hr class="chap x-ebookmaker-drop" aria-hidden="true">
@@ -9467,11 +9466,11 @@ are wrong.</p>
 
 <p><span class="pagenum" id="Page_234" role="doc-pagebreak"></span><span class="pagenum" id="Page_235" role="doc-pagebreak">235</span></p>
 
-  <h2 class="nobreak" id="four">
+  <p class="book-part" id="four">
     four:
     <br>
     The Future
-  </h2>
+  </p>
 </div>
 
 
@@ -10207,7 +10206,7 @@ any effective headway in the United States.</p>
   <li class="isub1">1948 trial, <a href="#Page_19">19</a></li>
   <li class="isub1">Smith Act violations, <a href="#Page_19">19</a></li>
 
-  <li class="indx"><cite>Communists [You Can Trust the Communists to Do Exactly As They Say</cite>] (Schwarz), <a href="#Page_57">57</a>, <a href="#Page_66">66</a>, <a href="#Page_163">163</a></li>
+  <li class="indx"><cite>Communists [You Can Trust the Communists to Do Exactly As They Say]</cite> (Schwarz), <a href="#Page_57">57</a>, <a href="#Page_66">66</a>, <a href="#Page_163">163</a></li>
 
   <li class="indx">Comrat, <a href="#Page_44">44</a></li>
 
@@ -10257,7 +10256,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Cronin, Father John F., <a href="#Page_233">233</a>, <a href="#Page_243">243</a></li>
 
-  <li class="indx"><i>Cross and the Flag, The</i>, <a href="#Page_154">154</a></li>
+  <li class="indx"><cite>Cross and the Flag, The</cite>, <a href="#Page_154">154</a></li>
 
   <li class="indx">Cuban invasion fiasco of 1961, <a href="#Page_6">6</a>, <a href="#Page_228">228</a>, <a href="#Page_242">242</a></li>
 
@@ -10268,7 +10267,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Dalton, John, <a href="#Page_59">59</a></li>
 
-  <li class="indx"><i>Dan Smoot Report</i>, <a href="#Page_45">45</a>, <a href="#Page_134">134–135</a>, <a href="#Page_152">152</a>, <a href="#Page_159">159</a></li>
+  <li class="indx"><cite>Dan Smoot Report</cite>, <a href="#Page_45">45</a>, <a href="#Page_134">134–135</a>, <a href="#Page_152">152</a>, <a href="#Page_159">159</a></li>
 
   <li class="indx">Daughters of the American Revolution, <a href="#Page_139">139</a></li>
 
@@ -10298,7 +10297,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Dilling, Elizabeth, <a href="#Page_17">17</a></li>
 
-  <li class="indx"><i>Dilling Bulletin</i>, <a href="#Page_154">154</a></li>
+  <li class="indx"><cite>Dilling Bulletin</cite>, <a href="#Page_154">154</a></li>
 
   <li class="indx">Directories of Right-wing organizations, <a href="#Page_126">126–127</a></li>
 
@@ -10306,7 +10305,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Dominick, Peter H., <a href="#Page_218">218</a></li>
 
-  <li class="indx"><i>Don Bell Reports</i>, <a href="#Page_154">154</a></li>
+  <li class="indx"><cite>Don Bell Reports</cite>, <a href="#Page_154">154</a></li>
 
   <li class="indx">Douglas, William O., <a href="#Page_44">44</a></li>
 
@@ -10351,7 +10350,7 @@ any effective headway in the United States.</p>
   <li class="isub1">membership, <a href="#Page_7">7</a></li>
   <li class="isub1"><span class="pagenum" id="Page_251" role="doc-pagebreak">251</span>movement, <a href="#Page_3">3–21</a></li>
 
-  <li class="indx"><i>Farm and Ranch</i>, <a href="#Page_112">112</a>, <a href="#Page_155">155</a></li>
+  <li class="indx"><cite>Farm and Ranch</cite>, <a href="#Page_112">112</a>, <a href="#Page_155">155</a></li>
 
   <li class="indx">Fascism, <a href="#Page_16">16–18</a></li>
 
@@ -10409,7 +10408,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Freedom-in-Action, <a href="#Page_139">139</a></li>
 
-  <li class="indx"><i>Freedom University of the Air</i>, TV program, <a href="#Page_148">148</a></li>
+  <li class="indx"><cite>Freedom University of the Air</cite>, TV program, <a href="#Page_148">148</a></li>
 
   <li class="indx">Fuchs, Klaus, <a href="#Page_21">21</a></li>
 
@@ -10449,7 +10448,7 @@ any effective headway in the United States.</p>
   <li class="isub1">views, <a href="#Page_201">201–202</a></li>
 
   <li class="indx">Gordon, Rosalie M., <a href="#Page_149">149</a>, <a href="#Page_160">160</a>, <a href="#Page_162">162</a></li>
-  <li class="isub1"><i>Nine Men Against America</i>, <a href="#Page_149">149</a></li>
+  <li class="isub1"><cite>Nine Men Against America</cite>, <a href="#Page_149">149</a></li>
 
   <li class="indx">Government infiltration by Communists, <a href="#Page_18">18–19</a>, <a href="#Page_40">40</a>, <a href="#Page_76">76–77</a>, <a href="#Page_87">87–88</a></li>
 
@@ -10475,10 +10474,10 @@ any effective headway in the United States.</p>
     <a href="#Page_197">197</a>, <a href="#Page_201">201</a>, <a href="#Page_224">224</a>, <a href="#Page_245">245</a></li>
   <li class="isub1">attempt to bring together Right-wing leaders, <a href="#Page_89">89–90</a></li>
   <li class="isub1">background, <a href="#Page_70">70–72</a>, <a href="#Page_78">78</a></li>
-  <li class="isub1"><i>Communist America—Must It Be?</i> 75–76, <a href="#Page_82">82</a></li>
+  <li class="isub1"><cite>Communist America—Must It Be?</cite> 75–76, <a href="#Page_82">82</a></li>
   <li class="isub1">degrees, <a href="#Page_78">78</a></li>
   <li class="isub1"><span class="pagenum" id="Page_252" role="doc-pagebreak">252</span>delivery, <a href="#Page_78">78–79</a></li>
-  <li class="isub1"><i>Facts about Communism and Our Churches</i>, <a href="#Page_149">149</a></li>
+  <li class="isub1"><cite>Facts about Communism and Our Churches</cite>, <a href="#Page_149">149</a></li>
   <li class="isub1">on internal Communism, <a href="#Page_73">73</a></li>
   <li class="isub1">library and files, <a href="#Page_75">75</a></li>
   <li class="isub1">methods, <a href="#Page_78">78–80</a></li>
@@ -10501,7 +10500,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Hayden, Carl, <a href="#Page_136">136</a></li>
 
-  <li class="indx"><i>Heads Up</i>, newsletter, <a href="#Page_212">212</a></li>
+  <li class="indx"><cite>Heads Up</cite>, newsletter, <a href="#Page_212">212</a></li>
 
   <li class="indx">Healy, Cletus J., S.J., <a href="#Page_153">153–154</a></li>
 
@@ -10534,7 +10533,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Hughes, Charles Evans, <a href="#Page_15">15</a></li>
 
-  <li class="indx"><i>Human Events</i>, <a href="#Page_45">45</a>, <a href="#Page_136">136</a>, <a href="#Page_151">151</a>, <a href="#Page_205">205</a></li>
+  <li class="indx"><cite>Human Events</cite>, <a href="#Page_45">45</a>, <a href="#Page_136">136</a>, <a href="#Page_151">151</a>, <a href="#Page_205">205</a></li>
 
   <li class="indx">Hunt, H. L., <a href="#Page_132">132–135</a></li>
   <li class="isub1">“Life Lines,” <a href="#Page_132">132–133</a></li>
@@ -10544,13 +10543,13 @@ any effective headway in the United States.</p>
 
   <li class="ifrst">Income tax repeal, <a href="#Page_47">47</a>, <a href="#Page_104">104</a>, <a href="#Page_114">114</a>, <a href="#Page_128">128–129</a>, <a href="#Page_134">134</a></li>
 
-  <li class="indx"><i>Independent American</i>, <a href="#Page_101">101</a>, <a href="#Page_103">103</a></li>
+  <li class="indx"><cite>Independent American</cite>, <a href="#Page_101">101</a>, <a href="#Page_103">103</a></li>
 
-  <li class="indx">Indianapolis <i>Star</i>, <a href="#Page_156">156</a></li>
+  <li class="indx">Indianapolis <cite>Star</cite>, <a href="#Page_156">156</a></li>
 
   <li class="indx">Industrial College of the Armed Forces, <a href="#Page_193">193</a></li>
 
-  <li class="indx"><i>Inform</i>, <a href="#Page_154">154</a></li>
+  <li class="indx"><cite>Inform</cite>, <a href="#Page_154">154</a></li>
 
   <li class="indx">Institute of Pacific Relations, <a href="#Page_181">181</a></li>
 
@@ -10610,7 +10609,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Jones, Dr. Kenneth, <a href="#Page_105">105</a>, <a href="#Page_215">215</a>, <a href="#Page_222">222</a></li>
 
-  <li class="indx">Joplin (Mo.) <i>Globe</i>, <a href="#Page_157">157</a></li>
+  <li class="indx">Joplin (Mo.) <cite>Globe</cite>, <a href="#Page_157">157</a></li>
 
   <li class="indx">Judd, Walter, <a href="#Page_66">66</a>, <a href="#Page_222">222</a></li>
 
@@ -10702,11 +10701,11 @@ any effective headway in the United States.</p>
 
   <li class="indx">“Life Lines,” <a href="#Page_132">132–133</a></li>
 
-  <li class="indx"><i>Life</i> magazine, <a href="#Page_66">66</a></li>
+  <li class="indx"><cite>Life</cite> magazine, <a href="#Page_66">66</a></li>
 
   <li class="indx">“Lighted Window, The,” <a href="#Page_128">128</a></li>
 
-  <li class="indx">Lima (Ohio) <i>News</i>, <a href="#Page_157">157</a></li>
+  <li class="indx">Lima (Ohio) <cite>News</cite>, <a href="#Page_157">157</a></li>
 
   <li class="indx">Louisiana, courses about communism, <a href="#Page_164">164</a></li>
 
@@ -10750,7 +10749,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Mail-order distributors, <a href="#Page_148">148</a></li>
 
-  <li class="indx">Manchester (N.H.) <i>Union Leader</i>, <a href="#Page_157">157</a></li>
+  <li class="indx">Manchester (N.H.) <cite>Union Leader</cite>, <a href="#Page_157">157</a></li>
 
   <li class="indx">Manion, Clarence, <a href="#Page_81">81</a>, <a href="#Page_95">95</a>, <a href="#Page_129">129</a>, <a href="#Page_147">147</a>, <a href="#Page_152">152–153</a></li>
 
@@ -10760,7 +10759,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Martin, James D., <a href="#Page_105">105</a></li>
 
-  <li class="indx"><i>Masters of Deceit</i> (Hoover), <a href="#Page_230">230</a></li>
+  <li class="indx"><cite>Masters of Deceit</cite> (Hoover), <a href="#Page_230">230</a></li>
 
   <li class="indx">Matthews, J. B., <a href="#Page_39">39</a>, <a href="#Page_97">97</a></li>
 
@@ -10826,7 +10825,7 @@ any effective headway in the United States.</p>
   <li class="indx">Mutual network, <a href="#Page_82">82</a></li>
 
 
-  <li class="ifrst"><i>Naked Communist, The</i> (Skousen), <a href="#Page_148">148–149</a></li>
+  <li class="ifrst"><cite>Naked Communist, The</cite> (Skousen), <a href="#Page_148">148–149</a></li>
 
   <li class="indx">National Association of Manufacturers, <a href="#Page_16">16</a>, <a href="#Page_26">26</a>, <a href="#Page_47">47</a></li>
 
@@ -10853,9 +10852,9 @@ any effective headway in the United States.</p>
 
   <li class="indx">“National Program Letter,” <a href="#Page_99">99</a></li>
 
-  <li class="indx"><i>National Observer</i>, <a href="#Page_224">224–225</a></li>
+  <li class="indx"><cite>National Observer</cite>, <a href="#Page_224">224–225</a></li>
 
-  <li class="indx"><i>National Review</i>, <a href="#Page_32">32</a>, <a href="#Page_45">45</a>, <a href="#Page_50">50</a>, <a href="#Page_151">151</a>, <a href="#Page_221">221</a></li>
+  <li class="indx"><cite>National Review</cite>, <a href="#Page_32">32</a>, <a href="#Page_45">45</a>, <a href="#Page_50">50</a>, <a href="#Page_151">151</a>, <a href="#Page_221">221</a></li>
 
   <li class="indx"><span class="pagenum" id="Page_255" role="doc-pagebreak">255</span>National Security Council directive, <a href="#Page_190">190–191</a></li>
 
@@ -10876,14 +10875,14 @@ any effective headway in the United States.</p>
   <li class="indx">New York, Christian Anti-Communism Crusade, <a href="#Page_56">56</a>, <a href="#Page_60">60</a>, <a href="#Page_67">67</a>, <a href="#Page_142">142</a></li>
   <li class="isub1">Conservative Party, <a href="#Page_219">219–221</a></li>
 
-  <li class="indx"><i>New York Times</i>, <a href="#Page_41">41</a></li>
+  <li class="indx"><cite>New York Times</cite>, <a href="#Page_41">41</a></li>
 
   <li class="indx">Newsletters, <a href="#Page_135">135</a>, <a href="#Page_151">151–155</a>, <a href="#Page_212">212</a></li>
 
   <li class="indx">Newspapers, <a href="#Page_76">76</a></li>
   <li class="isub1">columnists, <a href="#Page_154">154–157</a></li>
 
-  <li class="indx"><i>Nine Men Against America</i> (Gordon), <a href="#Page_149">149–150</a></li>
+  <li class="indx"><cite>Nine Men Against America</cite> (Gordon), <a href="#Page_149">149–150</a></li>
 
   <li class="indx">Nixon, Richard, <a href="#Page_8">8</a>, <a href="#Page_19">19</a>, <a href="#Page_37">37–38</a>, <a href="#Page_106">106</a>, <a href="#Page_208">208–213</a></li>
 
@@ -10917,7 +10916,7 @@ any effective headway in the United States.</p>
   <li class="indx">Organizations, directory of Right-wing, <a href="#Page_126">126–127</a></li>
   <li class="isub1">list of subversive, <a href="#Page_18">18</a>, <a href="#Page_227">227</a></li>
 
-  <li class="indx"><i>Our Sunday Visitor</i>, <a href="#Page_153">153–154</a></li>
+  <li class="indx"><cite>Our Sunday Visitor</cite>, <a href="#Page_153">153–154</a></li>
 
   <li class="indx">Overstreet, Harry and Bonaro, <a href="#Page_183">183</a></li>
 
@@ -11005,7 +11004,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Reuther memorandum, <a href="#Page_227">227–232</a></li>
 
-  <li class="indx"><i>Revolt on the Campus</i> (Evans), <a href="#Page_173">173</a></li>
+  <li class="indx"><cite>Revolt on the Campus</cite> (Evans), <a href="#Page_173">173</a></li>
 
   <li class="indx">Reynolds, John W., <a href="#Page_206">206–207</a></li>
 
@@ -11017,7 +11016,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Rickenbacker, William F., <a href="#Page_221">221</a></li>
 
-  <li class="indx"><i>Right!</i> newsletter, <a href="#Page_154">154</a></li>
+  <li class="indx"><cite>Right!</cite> newsletter, <a href="#Page_154">154</a></li>
 
   <li class="indx">Right-to-work movement, <a href="#Page_48">48</a>, <a href="#Page_100">100</a></li>
 
@@ -11085,7 +11084,7 @@ any effective headway in the United States.</p>
   <li class="isub1">salary, <a href="#Page_58">58</a></li>
   <li class="isub1">testimony before House Un-American Committee, <a href="#Page_65">65–66</a></li>
   <li class="isub1">troop indoctrination program, <a href="#Page_188">188–189</a></li>
-  <li class="isub1"><i>You Can Trust the Communists (To Do Exactly As They Say)</i>, <a href="#Page_57">57</a>, <a href="#Page_66">66</a>, <a href="#Page_163">163</a></li>
+  <li class="isub1"><cite>You Can Trust the Communists (To Do Exactly As They Say)</cite>, <a href="#Page_57">57</a>, <a href="#Page_66">66</a>, <a href="#Page_163">163</a></li>
 
   <li class="indx">Seale, Jack, <a href="#Page_205">205</a>, <a href="#Page_207">207</a>, <a href="#Page_213">213–215</a></li>
 
@@ -11179,7 +11178,7 @@ any effective headway in the United States.</p>
 
   <li class="ifrst">Taft, Robert A., <a href="#Page_38">38</a>, <a href="#Page_201">201</a></li>
 
-  <li class="indx"><i>Task Force</i>, <a href="#Page_154">154</a></li>
+  <li class="indx"><cite>Task Force</cite>, <a href="#Page_154">154</a></li>
 
   <li class="indx">“Tax Fax” flyers, <a href="#Page_102">102</a></li>
 
@@ -11195,15 +11194,15 @@ any effective headway in the United States.</p>
 
   <li class="indx">Third Party, <a href="#Page_106">106–107</a></li>
 
-  <li class="indx"><i>This Is America’s Story</i> (Wilder, Ludlum and Brown), <a href="#Page_161">161</a></li>
+  <li class="indx"><cite>This Is America’s Story</cite> (Wilder, Ludlum and Brown), <a href="#Page_161">161</a></li>
 
   <li class="indx">Thompson, Dr. Tyler, <a href="#Page_190">190</a></li>
 
   <li class="indx">Thurmond, Senator Strom, <a href="#Page_90">90</a>, <a href="#Page_136">136</a>, <a href="#Page_180">180–181</a>, <a href="#Page_199">199</a>, <a href="#Page_202">202–203</a></li>
 
-  <li class="indx"><i>Time</i> Magazine, <a href="#Page_19">19</a></li>
+  <li class="indx"><cite>Time</cite> Magazine, <a href="#Page_19">19</a></li>
 
-  <li class="indx"><i>Toward Soviet America</i> (Foster), <a href="#Page_150">150</a></li>
+  <li class="indx"><cite>Toward Soviet America</cite> (Foster), <a href="#Page_150">150</a></li>
 
   <li class="indx">Tower, Senator John, <a href="#Page_51">51</a>, <a href="#Page_109">109</a>, <a href="#Page_111">111</a>, <a href="#Page_114">114–115</a>, <a href="#Page_136">136</a>,
     <a href="#Page_200">200</a>, <a href="#Page_202">202–203</a>, <a href="#Page_205">205</a></li>
@@ -11224,7 +11223,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Truman, Harry S., <a href="#Page_18">18–19</a></li>
 
-  <li class="indx"><i>Truth, The</i>, <a href="#Page_153">153–154</a></li>
+  <li class="indx"><cite>Truth, The</cite>, <a href="#Page_153">153–154</a></li>
 
   <li class="indx">Tulsa anti-Communist leadership school, <a href="#Page_69">69</a>, <a href="#Page_81">81</a></li>
 
@@ -11290,7 +11289,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Washington, University of, <a href="#Page_94">94</a></li>
 
-  <li class="indx">Washington <i>Daily News</i>, <a href="#Page_183">183</a></li>
+  <li class="indx">Washington <cite>Daily News</cite>, <a href="#Page_183">183</a></li>
 
   <li class="indx">Watch Washington Club, <a href="#Page_143">143</a></li>
 
@@ -11302,7 +11301,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Wedemeyer, General Albert C., <a href="#Page_96">96</a>, <a href="#Page_129">129</a>, <a href="#Page_136">136</a></li>
 
-  <li class="indx"><i>Weekly Crusader</i>, <a href="#Page_72">72</a>, <a href="#Page_74">74</a>, <a href="#Page_89">89</a></li>
+  <li class="indx"><cite>Weekly Crusader</cite>, <a href="#Page_72">72</a>, <a href="#Page_74">74</a>, <a href="#Page_89">89</a></li>
 
   <li class="indx" id="idx_Welch_Robert">Welch, Robert, <a href="#Page_4">4</a>, <a href="#Page_80">80</a>, <a href="#Page_105">105–106</a>, <a href="#Page_125">125</a>, <a href="#Page_143">143</a>,
     <a href="#Page_175">175</a>, <a href="#Page_242">242–243</a>, <a href="#Page_245">245</a></li>
@@ -11354,7 +11353,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Wobblies, <a href="#Page_14">14</a></li>
 
-  <li class="indx"><i>Worker, The</i>, <a href="#Page_135">135</a></li>
+  <li class="indx"><cite>Worker, The</cite>, <a href="#Page_135">135</a></li>
 
   <li class="indx"><span class="pagenum" id="Page_259" role="doc-pagebreak">259</span>World Council of Churches, <a href="#Page_61">61</a>, <a href="#Page_141">141</a></li>
 
@@ -11365,7 +11364,7 @@ any effective headway in the United States.</p>
 
   <li class="indx">Yeagley, J. Walter, <a href="#Page_229">229</a></li>
 
-  <li class="indx"><i>You Can Trust the Communists</i> (<i>To Do Exactly As They Say</i>) (Schwarz), <a href="#Page_57">57</a>, <a href="#Page_66">66</a>, <a href="#Page_163">163</a></li>
+  <li class="indx"><cite>You Can Trust the Communists (To Do Exactly As They Say)</cite> (Schwarz), <a href="#Page_57">57</a>, <a href="#Page_66">66</a>, <a href="#Page_163">163</a></li>
 
   <li class="indx">Young, Milton B., <a href="#Page_215">215–217</a></li>
 
@@ -11405,8 +11404,8 @@ Janson graduated from the University of Missouri in 1943,
 received an M.A. from the University of Minnesota in 1948,
 and attended Harvard University in 1952 and 1953 on a
 Nieman Fellowship. Since 1948 he has worked for the
-<i>Milwaukee Journal</i>, the <i>St. Louis Post-Dispatch</i>, and (since
-1955) <i>The New York Times</i>. He is now a <i>Times</i> Midwest
+<cite>Milwaukee Journal</cite>, the <cite>St. Louis Post-Dispatch</cite>, and (since
+1955) <cite>The New York Times</cite>. He is now a <cite>Times</cite> Midwest
 correspondent. With his wife, Jane, he lives in Chicago.</p>
 
 <p>Bernard Eismann was born in New York City in 1933, received

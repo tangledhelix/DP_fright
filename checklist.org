@@ -6,7 +6,7 @@
 
 * Things to revisit
 ** General
-- [ ] overall book organization into parts, then chapters
+- [X] overall book organization into parts, then chapters
 - [X] 024: hand-written correction from a past reader; research the name change
 - [X] abbreviations of e.g. ABC, CBS (TV networks)
 ** Rewrap markers
@@ -21,7 +21,7 @@
 ** HTML only
 - [X] chapter starts are all right-aligned. (get it?) including ToC and probably index
 - [X] drop right pad/margin on blockquote so it is also right-leaning?
-- [ ] lot of use of what should be allsmcap; GG should auto-detect; check it worked
+- [X] lot of use of what should be allsmcap; GG should auto-detect; check it worked
 - [X] 007-008: ToC
 - [X] 009: no-indent para
 - [X] 013: no-indent para
@@ -466,7 +466,7 @@ For each image:
 - [X] If any images were modified substantially (including removing a library sticker or stamp), add a TN. Place the new image in the public domain in the TN. This is a PG requirement.
 - [X] If fabricating your own cover, add the TN as noted in [[https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover][Easy_Epub/Cover]].
 *** Check "things to revisit"
-- [ ] Check revisit list for anything left for the HTML version
+- [X] Check revisit list for anything left for the HTML version
 *** Add TN
 - [ ] Add transcriber's notes, example follows.
 #+BEGIN_SRC html
