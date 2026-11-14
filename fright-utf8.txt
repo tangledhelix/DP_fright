@@ -1857,8 +1857,8 @@ and humility.” With barely a pause, the speaker resolved the conflict.
 He straightened, smiled, then leaned forward again over the lectern: “I
 always say, ‘Begin with my books.’
 
-“Here’s a book that you can trust, _The Communists_ [_You Can Trust
-The Communists (To Do Exactly As They Say)_]. It’s had a tremendous
+“Here’s a book that you can trust, _The Communists [You Can Trust
+The Communists (To Do Exactly As They Say)]_. It’s had a tremendous
 reception. Many of the lectures I give in the morning you’ll find in
 this. Now it costs you two ninety-five in the shops. We give you a
 special price--three dollars.” As if on cue, the audience snickered
@@ -8293,8 +8293,8 @@ from making any effective headway in the United States.
     1948 trial, 19
     Smith Act violations, 19
 
-  _Communists_ [_You Can Trust the Communists to Do Exactly As They
-        Say_] (Schwarz), 57, 66, 163
+  _Communists [You Can Trust the Communists to Do Exactly As They
+        Say]_ (Schwarz), 57, 66, 163
 
   Comrat, 44
 
@@ -9435,7 +9435,7 @@ from making any effective headway in the United States.
 
   Yeagley, J. Walter, 229
 
-  _You Can Trust the Communists_ (_To Do Exactly As They Say_)
+  _You Can Trust the Communists (To Do Exactly As They Say)_
         (Schwarz), 57, 66, 163
 
   Young, Milton B., 215–217
@@ -9491,6 +9491,11 @@ with his wife and two children he lives in Chicago.
 
 Some inconsistencies in spelling, hyphenation, and punctuation have
 been retained.
+
+p. 14: In the paper book this transcription originated from, a past
+reader crossed out “International” in “International Workers of the
+World” and wrote “Industrial” above it. While this anonymous reader was
+correct, the text was left as originally printed.
 
 p. 65: changed “committe” to “committee” (None of the congressmen on
 the committee)
